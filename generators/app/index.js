@@ -209,11 +209,12 @@ module.exports = class extends Generator {
 
 
 
-      this.fs.copyTpl(
-        this.templatePath('tempflutter/starterproject/.dart_tool'),
-        this.destinationPath('.dart_tool'),
-        this.answers
-      );
+//       this.fs.copyTpl(
+//         this.templatePath('tempflutter/starterproject/.dart_tool'),
+//         this.destinationPath('.dart_tool'),
+//         this.answers
+//       );
+      
     }
 
 
